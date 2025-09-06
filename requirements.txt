@@ -2,3 +2,4 @@ Flask>=2.0
 pillow
 pytesseract
 werkzeug
+psycopg2-binary
