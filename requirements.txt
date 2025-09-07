@@ -1,4 +1,5 @@
 Flask>=2.0
+gunicorn
 pillow
 pytesseract
 werkzeug
