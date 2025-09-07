@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the rest of your application code into the container
 COPY . .
 
-CMD gunicorn app:app --bind 0.0.0.0:$PORT
+CMD python -m gunicorn app:app --bind 0.0.0.0:$PORT
